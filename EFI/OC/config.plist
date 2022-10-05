@@ -722,7 +722,7 @@
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>
-                    <string>NVIDIA RTX3090Ti 18GB</string>
+                    <string>UHD Graphics 630</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1832,6 +1832,33 @@
             </dict>
             <key>Serial</key>
             <dict>
+                <key>Custom</key>
+                <dict>
+                    <key>BaudRate</key>
+                    <integer>115200</integer>
+                    <key>ClockRate</key>
+                    <integer>1843200</integer>
+                    <key>DetectCable</key>
+                    <false/>
+                    <key>ExtendedTxFifoSize</key>
+                    <integer>64</integer>
+                    <key>FifoControl</key>
+                    <integer>7</integer>
+                    <key>LineControl</key>
+                    <integer>3</integer>
+                    <key>PciDeviceInfo</key>
+                    <data>/w==</data>
+                    <key>RegisterAccessWidth</key>
+                    <integer>8</integer>
+                    <key>RegisterBase</key>
+                    <integer>1016</integer>
+                    <key>RegisterStride</key>
+                    <integer>1</integer>
+                    <key>UseHardwareFlowControl</key>
+                    <false/>
+                    <key>UseMmio</key>
+                    <false/>
+                </dict>
                 <key>Init</key>
                 <false/>
                 <key>Override</key>
@@ -2128,8 +2155,6 @@
                     <string>boot-args</string>
                 </array>
             </dict>
-            <key>LegacyEnable</key>
-            <false/>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
@@ -2148,13 +2173,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02934501GUJP4FJA</string>
+                <string>C02908403CDJP4FCB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>1793</integer>
                 <key>ROM</key>
-                <data>s01CEY5w</data>
+                <data>lYYw7Qyd</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -2162,9 +2187,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro15,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02Z8SY2KGYG</string>
+                <string>C02Y9VZVKGYG</string>
                 <key>SystemUUID</key>
-                <string>4BF63132-273A-4610-905A-C15CBCB90C18</string>
+                <string>24046BBA-A90A-4F06-97F9-549E952B8671</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -2253,6 +2278,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>HfsPlus.efi</string>
                 </dict>
@@ -2263,6 +2290,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
                 </dict>
@@ -2273,6 +2302,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>
@@ -2283,6 +2314,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>AudioDxe.efi</string>
                 </dict>
@@ -2293,6 +2326,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>VBoxHfs.efi</string>
                 </dict>
@@ -2302,6 +2337,8 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
+                    <false/>
+                    <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
                     <string>OpenUsbKbDxe.efi</string>
