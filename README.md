@@ -1,7 +1,7 @@
 # ASUS-fx504GE-fx80GE-EFI
 ASUS-fx504GE-fx80GE-EFI
 **MacOS版本：14.4.1**
-**OpenCore版本：0.9.9**
+**OpenCore版本：1.0.0**
 - ~~VoodooPS2Controller.kext 升级后会导致内置键盘无法使用.~~（以前会）
 - 使用耳机会导致输出严重失真 音响有较大底噪
 - 后续更换了英特尔AX210网卡实现了WIFI和蓝牙
